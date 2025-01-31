@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 76vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 10px; /* Add a rounded corner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: goldenrod; /* Change the background color */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.icon {
+    width: 30px; /* Adjust icon size */
+    height: 30px; /* Adjust icon size */
+    margin-right: 10px;
+}
+
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #0e0e1a;
+    padding: 20px 0;
+}
+
+.footer{
+    display: flex;
+    padding: -10px 122px;
+    justify-content: space-evenly;
+    color:  rgb(216, 133, 21);
+}
+
+.foot {
+    margin-top: 10px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul a{
+    text-decoration: none;
+}
+
+.footer > div {
+    width: 223px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+
+@media screen and (max-width: 450px) {
+    .foot{
+        margin-top: 75px;
+    }
+
+    .footer{
+        margin-left: 75px;
+    }
+
+    footer .footer-rights{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .foot{
+        margin-top: 33px;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    .foot{
+        margin-top: 77px;
+    }
+}

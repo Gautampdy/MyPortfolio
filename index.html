@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautam - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Gautam's Portfolio</div>
+            <div class="Right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li> &nbsp; &nbsp;
+                    <button class="changecolorbtn"  id="changeColorBtn"></button>
+                    <script src="script.js"></script>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Gautam Pandey</span>
+                <div> and I am a passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"> <a href="projdoc/Gautam_Rajesh_Pandey_Resume.pdf">Resume</a></button>
+                    <button class="btn"> <a href="https://github.com/Gautampdy/" target="_blank">Visit
+                            Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="icons/develop.png" alt="">
+            </div>
+
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Qualifications</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="icons/ssclogo.jpg" alt="">
+                    <div class="vertical-title">
+                        10th-SSC <br> (2018-2019)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Maharashtra State Board Of Higher Secondary & Higher Secondary Education, Pune.
+                    </div>
+                    <br>
+
+                    <div class="vertical-desc1">
+                        Percentage: 71.6%
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="icons/ssclogo.jpg" alt="">
+                    <div class="vertical-title">
+                        12th-HSC <br> (2020-2021)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Maharashtra State Board Of Higher Secondary & Higher Secondary Education, Pune.
+                    </div>
+                    <br>
+
+                    <div class="vertical-desc1">
+                        Percentage: 85.33%
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="icons/cetlogo.jpg" alt="">
+                    <div class="vertical-title">
+                        MHT-CET <br> (2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Maharashtra Common Entrance Test.
+                    </div> <br> <br>
+
+                    <div class="vertical-desc1">
+                        Merit Marks: 78.0626
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="icons/mulogo.jpg" alt="">
+                    <div class="vertical-title">
+                        B.E - Computer Engineering <br> (2021 - Pursuing)
+                    </div>
+                    <div class="vertical-descmu">
+                        Mumbai University
+                        Currently Pursuing 4th year. <br> Sem I-10gpa <br> Sem II-9.20gpa <br> Sem III-8.56gpa <br> Sem
+                        IV-9.50gpa <br> Sem V-8.56gpa <br> Sem VI-8.83gpa <br> Sem VII-9.59gpa <br>
+                        Average Pointer: 9.2GPA
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Gautam's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-third">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-rights">
+            Copyright &#169;2025 Gautam'sPortfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Frontend Developer', 'Video Editor', 'Computer Engineer.'],
+            typeSpeed: 40,
+        });
+    </script>
+
+</body>
+
+</html>

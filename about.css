@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+    color: rgb(216, 133, 21);
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 1.5rem;
+}
+
+.rightSection img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+
+.intro {
+    color: gray;
+    text-align: justify;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.secondSection1 {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.secondSection2 {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.secondSection3 {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.secondSection4 {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+    color: silver;
+}
+
+.secondSection1 h1 {
+    font-size: 1.9rem;
+    color: silver;
+}
+
+.secondSection2 h1 {
+    font-size: 1.9rem;
+    color: silver;
+}
+
+.secondSection3 h1 {
+    font-size: 1.9rem;
+    color: silver;
+}
+
+.secondSection4 h1 {
+    font-size: 1.9rem;
+    color: silver;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 1px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSection1 .box {
+    background: white;
+    width: 83vw;
+    height: 1px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSection2 .box {
+    background: white;
+    width: 60vw;
+    height: 1px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSection3 .box {
+    background: white;
+    width: 60vw;
+    height: 1px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSection4 .box {
+    background: white;
+    width: 60vw;
+    height: 1px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSection .vertical {
+    height: 75px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+}
+
+.secondSection1 .vertical {
+    height: 93px;
+    width: 0.8px;
+    background-color: white;
+    position: relative;
+}
+
+.secondSection2 .vertical {
+    height: 93px;
+    width: 0.8px;
+    background-color: white;
+    position: relative;
+}
+
+.secondSection3 .vertical {
+    height: 93px;
+    width: 0.8px;
+    background-color: white;
+    position: relative;
+}
+
+.secondSection4 .vertical {
+    height: 93px;
+    width: 0.8px;
+    background-color: white;
+    position: relative;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #0e0e1a;
+    padding: 35px 0;
+    width: 8vw;
+    height: 100px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul a {
+    text-decoration: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+
+@media screen and (max-width: 450px){
+    .heading{
+        width: 240px;
+        margin-left: 600px;
+    }
+
+
+    .firstSection{
+        width: 1300px;
+        margin-left: 50px;
+        height:400px
+    }
+
+    .secondSection,.secondSection1,.secondSection2,.secondSection3,.secondSection4{
+        height: 500px;
+        margin-left: 100px;
+    }
+
+
+    .secondSection .box, .secondSection1 .box, .secondSection2 .box, .secondSection3 .box, .secondSection4 .box{
+        width: 1100px;
+    }
+
+    footer{
+        margin-top: 10px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .heading{
+        margin-left: 600px;
+        width: 240px;
+    }
+
+    .firstSection{
+        width: 1000px;
+        margin-left: 200px;
+        height: 500px
+    }
+
+    .leftSection{
+        margin-right: 300px;
+    }
+
+    .secondSection,.secondSection1,.secondSection2,.secondSection3,.secondSection4{
+        height: 400px;
+        margin-left: 100px;
+    }
+
+    .secondSection .box,.secondSection2 .box,.secondSection3 .box,.secondSection4 .box{
+        width: 1000px;
+    }
+
+    .secondSection1 .box{
+        width:1100px
+    }
+
+    footer{
+        height: 90px;
+        width: 1400px;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px){
+    .heading{
+        width:240px;
+        margin-left: 600px;
+    }
+
+    .firstSection{
+        width:1000px;
+        margin-left: 200px;
+    }
+
+    .leftSection{
+        margin-right: 350px;
+    }
+
+    .secondSection,.secondSection1,.secondSection2,.secondSection3,.secondSection4{
+        height: 400px;
+        margin-left: 200px;
+    }
+
+    .secondSection .box,.secondSection2 .box,.secondSection3 .box,.secondSection4 .box{
+        width: 1000px;
+    }
+
+    .secondSection1 .box{
+        width:1100px
+    }
+
+    footer{
+        height: 90px;
+        width: 1450px;
+    }
+
+}
+
+
+@media screen and (max-width: 1440px) {
+    .firstSection{
+        margin-left: 100px;
+    }
+
+
+    .secondSection,.secondSection1,.secondSection2,.secondSection3,.secondSection4{
+        height: 400px;
+    }
+
+
+    footer{
+        width: 1490px;
+    }
+}

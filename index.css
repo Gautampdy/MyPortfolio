@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(5, 5, 5);
+    color: rgb(216, 133, 21);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(71, 74, 75);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: lavender;
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: 0;
+    background-color: blueviolet;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.changecolorbtn {
+    width: 30px;
+    height: 30px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 12px 24px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.leftSection .btn:hover {
+    background-color: #3b3f8a;
+    transform: scale(1.05);
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.buttons a:hover {
+    color: lavender;
+}
+
+.rightSection img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: -10vw;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.text-gray {
+    color: #a0a0a0;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 92vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+}
+
+.image-top {
+    width: 30px;
+    position: absolute;
+    top: -32px;
+    left: -15px;
+}
+
+.vertical-title {
+    position: absolute;
+    top: 95px;
+    width: 150px;
+    font-size: 14px;
+    color: white;
+}
+
+.vertical-desc {
+    position: absolute;
+    top: 140px;
+    color: gray;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc1 {
+    position: absolute;
+    top: 250px;
+    color: gray;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-descmu {
+    position: absolute;
+    top: 160px;
+    color: gray;
+    width: 150px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #0e0e1a;
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px 122px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer ul a:hover {
+    color: lavender;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 450px) {
+    nav {
+        width: 170%;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .firstSection {
+        flex-direction: row;
+        width: 150%;
+        height: auto;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .firstSection>div {
+        width: 90%;
+    }
+
+    .rightSection img {
+        max-width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .secondSection .box {
+        width: 150%;
+        flex-direction: row;
+        margin-left: 5%;
+    }
+
+    .secondSection h1{
+        height: 10%;
+    }
+
+    footer {
+        width: 170%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .footer {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer ul {
+        padding: 5px 0;
+    }
+}
+
+
+
+
+
+
+
